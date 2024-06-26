@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    card_view:strokeColor="@color/md_theme_secondary"
+    card_view:cardBackgroundColor="@color/md_theme_primary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardPreventCornerOverlap="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_card"
+            android:layout_width="127dp"
+            android:layout_height="178dp"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/messi"
+            android:contentDescription="@string/player_card" />
+
+        <TextView
+            android:id="@+id/item_name"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_toEndOf="@id/item_card"
+            android:textColor="@color/md_theme_tertiary"
+            android:textStyle="bold"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/item_card"
+            card_view:layout_constraintTop_toTopOf="@+id/item_card"
+            tools:text="@string/footy_name" />
+
+        <TextView
+            android:id="@+id/item_stats"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/md_theme_onSecondaryContainer"
+            card_view:layout_constraintBottom_toBottomOf="@+id/item_card"
+            card_view:layout_constraintEnd_toEndOf="@+id/item_name"
+            card_view:layout_constraintStart_toStartOf="@+id/item_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/item_name"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:text="@string/detail" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/item_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/md_theme_onPrimary"
+            android:text="@string/read_more"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_next"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/md_theme_tertiary"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@id/item_card"
+            card_view:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FootyStats</string>
+
+    <string name="footy_name">Footy Name</string>
+    <string name="pace_tag">Pace:\t\t\t\t\t</string>
+    <string name="shoot_tag">Shooting:\t\t</string>
+    <string name="pass_tag">Passing:\t\t\t</string>
+    <string name="dribble_tag">Dribbling:\t\t</string>
+    <string name="defence_tag">Defending:\t</string>
+    <string name="physical_tag">Physical:\t\t</string>
+    <string name="pace">92</string>
+    <string name="profile">Profile</string>
+
+    <string name="detail">
+        Orchestrator \n
+        Height: 177 \n
+        Weight: 68 \n
+        Age: 32
+    </string>
+    <string name="read_more">Read more</string>
+    <string name="player_card">Player Card</string>
+    <string name="get_started">Get Started!</string>
+    <string name="span2">Stats</string>
+    <string name="span1">Footy</string>
+    <string name="player_stats">Player Stats</string>
+    <string name="country">Country</string>
+    <string name="club">Club</string>
+    <string name="position">Position</string>
+    <string name="email">hernandanda30@gmail.com</string>
+    <string name="fullname">Hernanda Hiqmal Maula</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="placeholder_card">Player Card</string>
+    <string name="footy_stats">FOOTY STATS</string>
+    <string name="summary">Considered one of the greatest of all time, Messi mesmerizes with his dribbling skills and goal-scoring ability.</string>
+    <string name="about">About</string>
+    <string name="linkedin">Hernanda Hiqmal Maula</string>
+    <string name="github">hiqmalism</string>
+    <string name="mobile_development_cohort">Mobile Development Cohort</string>
+
+    <string-array name="player_name">
+        <item>Lionel Messi</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Kylian Mbappe</item>
+        <item>Erling Haaland</item>
+        <item>Robert Lewandowski</item>
+        <item>Jude Bellingham</item>
+        <item>Vinicius Junior</item>
+        <item>Kevin de Bruyne</item>
+        <item>Ronald Araujo</item>
+        <item>Mohamed Salah</item>
+    </string-array>
+
+    <string-array name="player_profile">
+        <item>
+            Height\t\t: 169 cm\n
+            Weight\t: 67 kg \n
+            Age\t\t\t: 36 \n
+            Foot\t\t\t: Left
+        </item>
+        <item>
+            Height\t\t: 187 cm\n
+            Weight\t: 85 kg \n
+            Age\t\t\t: 39 \n
+            Foot\t\t\t: Right
+        </item>
+        <item>
+            Height\t\t: 182 cm\n
+            Weight\t: 75 kg \n
+            Age\t\t\t: 25 \n
+            Foot\t\t\t: Right
+        </item>
+        <item>
+            Height\t\t: 185 cm\n
+            Weight\t: 94 kg \n
+            Age\t\t\t: 23 \n
+            Foot\t\t\t: Left
+        </item>
+        <item>
+            Height\t\t: 185 cm\n
+            Weight\t: 81 kg \n
+            Age\t\t\t: 35 \n
+            Foot\t\t\t: Right
+        </item>
+        <item>
+            Height\t\t: 186 cm\n
+            Weight\t: 75 kg \n
+            Age\t\t\t: 20 \n
+            Foot\t\t\t: Right
+        </item>
+        <item>
+            Height\t\t: 176 cm\n
+            Weight\t: 73 kg \n
+            Age\t\t\t: 23 \n
+            Foot\t\t\t: Right
+        </item>
+        <item>
+            Height\t\t: 181 cm\n
+            Weight\t: 75 kg \n
+            Age\t\t\t: 32 \n
+            Foot\t\t\t: Right
+        </item>
+        <item>
+            Height\t\t: 188 cm\n
+            Weight\t: 79 kg \n
+            Age\t\t\t: 25 \n
+            Foot\t\t\t: Right
+        </item>
+        <item>
+            Height\t\t: 175 cm\n
+            Weight\t: 71 kg \n
+            Age\t\t\t: 31 \n
+            Foot\t\t\t: Left
+        </item>
+    </string-array>
+
+    <integer-array name="player_pace">
+        <item>92</item>
+        <item>92</item>
+        <item>99</item>
+        <item>97</item>
+        <item>90</item>
+        <item>90</item>
+        <item>99</item>
+        <item>87</item>
+        <item>90</item>
+        <item>95</item>
+    </integer-array>
+    <integer-array name="player_shoot">
+        <item>97</item>
+        <item>97</item>
+        <item>96</item>
+        <item>99</item>
+        <item>96</item>
+        <item>88</item>
+        <item>94</item>
+        <item>95</item>
+        <item>60</item>
+        <item>95</item>
+    </integer-array>
+    <integer-array name="player_pass">
+        <item>98</item>
+        <item>85</item>
+        <item>88</item>
+        <item>80</item>
+        <item>91</item>
+        <item>90</item>
+        <item>87</item>
+        <item>99</item>
+        <item>83</item>
+        <item>92</item>
+    </integer-array>
+    <integer-array name="player_dribble">
+        <item>98</item>
+        <item>93</item>
+        <item>97</item>
+        <item>92</item>
+        <item>93</item>
+        <item>96</item>
+        <item>96</item>
+        <item>94</item>
+        <item>78</item>
+        <item>95</item>
+    </integer-array>
+    <integer-array name="player_def">
+        <item>39</item>
+        <item>45</item>
+        <item>47</item>
+        <item>57</item>
+        <item>50</item>
+        <item>90</item>
+        <item>40</item>
+        <item>84</item>
+        <item>93</item>
+        <item>57</item>
+    </integer-array>
+    <integer-array name="player_phy">
+        <item>79</item>
+        <item>83</item>
+        <item>88</item>
+        <item>97</item>
+        <item>94</item>
+        <item>91</item>
+        <item>82</item>
+        <item>86</item>
+        <item>92</item>
+        <item>87</item>
+    </integer-array>
+
+    <integer-array name="player_card">
+        <item>@drawable/messi</item>
+        <item>@drawable/ronaldo</item>
+        <item>@drawable/mbappe</item>
+        <item>@drawable/haaland</item>
+        <item>@drawable/lewa</item>
+        <item>@drawable/bellingham</item>
+        <item>@drawable/vinicius</item>
+        <item>@drawable/kdb</item>
+        <item>@drawable/araujo</item>
+        <item>@drawable/salah</item>
+    </integer-array>
+    <integer-array name="player_bg">
+        <item>@drawable/img_messi</item>
+        <item>@drawable/img_ronaldo</item>
+        <item>@drawable/img_mbappe</item>
+        <item>@drawable/img_haaland</item>
+        <item>@drawable/img_lewandowski</item>
+        <item>@drawable/img_bellingham</item>
+        <item>@drawable/img_vini</item>
+        <item>@drawable/img_kdb</item>
+        <item>@drawable/img_araujo</item>
+        <item>@drawable/img_salah</item>
+    </integer-array>
+
+    <string-array name="player_country">
+        <item>Argentina</item>
+        <item>Portugal</item>
+        <item>France</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>England</item>
+        <item>Brazil</item>
+        <item>Belgium</item>
+        <item>Uruguay</item>
+        <item>Egypt</item>
+    </string-array>
+
+    <string-array name="player_club">
+        <item>Inter Miami</item>
+        <item>Al Nassr</item>
+        <item>PSG</item>
+        <item>Man City</item>
+        <item>FC Barcelona</item>
+        <item>Real Madrid</item>
+        <item>Brazil</item>
+        <item>Man City</item>
+        <item>FC Barcelona</item>
+        <item>Liverpool</item>
+    </string-array>
+
+    <string-array name="player_position">
+        <item>RW</item>
+        <item>CF</item>
+        <item>CF</item>
+        <item>CF</item>
+        <item>CF</item>
+        <item>CM</item>
+        <item>LW</item>
+        <item>CAM</item>
+        <item>CB</item>
+        <item>RW</item>
+    </string-array>
+
+    <string-array name="player_summary">
+        <item>
+            Considered one of the greatest of all time (GOAT), He mesmerizes with his dribbling skills and goal-scoring ability.
+        </item>
+        <item>
+            Known for his athleticism, powerful shots, and incredible goal-scoring record, often compared to Messi.
+        </item>
+        <item>
+            Young talent renowned for his speed, dribbling, and finishing ability, a key player for PSG and the French national team.
+        </item>
+        <item>
+            Prolific striker known for his physicality, speed, and clinical finishing, emerging as a top talent in European football.
+        </item>
+        <item>
+            Skilled striker known for his technical ability, consistency, and goal-scoring prowess, a key figure at FC Barcelona.
+        </item>
+        <item>
+            Promising midfielder with maturity beyond his years, strong in both defense and attack, playing for Real Madrid and England national team.
+        </item>
+        <item>
+            Brazilian winger known for his pace, dribbling skills, and creativity, contributing to Real Madrid`s attacking force.
+        </item>
+        <item>
+            Belgian midfielder celebrated for his vision, passing accuracy, and powerful shots, a pivotal player for Manchester City.
+        </item>
+        <item>
+            Solid Uruguayan defender known for his physicality, aerial ability, and improving defensive skills, playing for FC Barcelona.
+        </item>
+        <item>
+            Egyptian forward known for his speed, agility, and goal-scoring ability, a key player in Liverpool`s attack.
+        </item>
+    </string-array>
+
+</resources>
